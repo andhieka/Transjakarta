@@ -17,3 +17,6 @@ for (var i = 0; i < koridor_satu.length; i++) {
 }
 
 koridor_satu.map(function(bs) { bs.drawEdges(); });
+
+//demo click interaktif
+koridor_satu.map(function(bs) { bs.innerCircle.click(function() { alert(bs.code + " " + bs.name); }); });
