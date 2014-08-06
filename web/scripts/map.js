@@ -480,27 +480,27 @@ window.onload =function(){
         
         
         //RS. Harapan Kita-Slipi Petamburan
-        halte["kode"] = paper.rect(303,324,20,10,[5])
+        halte["RS. Harapan Kita"] = paper.rect(303,324,20,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"});
-        halte["kode"] = paper.rect(303,356,20,10,[5])
+        halte["Slipi Kemanggisan"] = paper.rect(303,356,20,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"});
-        halte["kode"] = paper.rect(303,388,20,10,[5])
+        halte["Slipi Petamburan"] = paper.rect(303,388,20,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"});
         
         //Senayan JCC      
-        halte["kode"] = paper.rect(303,510,20,10,[5])
+        halte["Senayan JCC"] = paper.rect(303,510,20,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"});
         //Semanggi
-        halte["kode"] = paper.rect(360,513,20,30)
+        halte["Semanggi"] = paper.rect(360,513,20,30)
           .attr({'stroke-width':2,
                  fill:"white"});
         
         //Bendungan Hilir
-        halte["kode"] = paper.rect(385,500,30,17)
+        halte["Bendungan Hilir"] = paper.rect(385,500,30,17)
           .attr({'stroke-width':2,
                  fill:"white"});
         
@@ -512,7 +512,7 @@ window.onload =function(){
         
         
         //Monas
-        halte["kode"] = paper.rect(378,266,41,10,[5])
+        halte["Monas"] = paper.rect(378,266,41,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
@@ -520,14 +520,15 @@ window.onload =function(){
           .attr({'font-size':7});
         
         //Bank Indonesia
-        halte["kode"] = paper.rect(378,300,43,10,[5])
+        halte["Bank Indonesia"] = paper.rect(378,300,43,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         paper.text(363,305,'Bank\nIndonesia')
           .attr({'font-size':7});
+        
         //Sarinah
-        halte["kode"] = paper.rect(378,325,37,10,[5])
+        halte["Sarinah"] = paper.rect(378,325,37,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
@@ -535,14 +536,15 @@ window.onload =function(){
           .attr({'font-size':7});
         
         //Bundaran HI
-        halte["kode"] = paper.rect(378,350,37,10,[5])
+        halte["Bundaran HI"] = paper.rect(378,350,37,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         paper.text(437,355,'Bundaran HI')
           .attr({'font-size':7});
+
         //Tosari ICBC
-        halte["kode"] = paper.rect(388,375,25,10,[5])
+        halte["Tosari ICBC"] = paper.rect(388,375,25,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
@@ -550,7 +552,7 @@ window.onload =function(){
           .attr({'font-size':7});
         
         //Setiabudi
-        halte["kode"] = paper.rect(388,450,25,10,[5])
+        halte["Setiabudi"] = paper.rect(388,450,25,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
@@ -558,7 +560,7 @@ window.onload =function(){
           .attr({'font-size':7});
         
         //Karet
-        halte["kode"] = paper.rect(388,475,25,10,[5])
+        halte["Karet"] = paper.rect(388,475,25,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
@@ -566,7 +568,7 @@ window.onload =function(){
           .attr({'font-size':7});
         
         //Polda Metro Jaya
-        halte["kode"] = paper.rect(388,565,25,10,[5])
+        halte["Polda Metro Jaya"] = paper.rect(388,565,25,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
@@ -574,7 +576,7 @@ window.onload =function(){
           .attr({'font-size':7});
         
         //Gelora Bung Karno
-        halte["kode"] = paper.rect(388,590,25,10,[5])
+        halte["Gelora Bung Karno"] = paper.rect(388,590,25,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
@@ -582,7 +584,7 @@ window.onload =function(){
           .attr({'font-size':7});
         
         //Bundaran Senayan
-        halte["kode"] = paper.rect(388,615,25,10,[5])
+        halte["Bundaran Senayan"] = paper.rect(388,615,25,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
@@ -590,14 +592,14 @@ window.onload =function(){
           .attr({'font-size':7});
         
         //Masjid Agung
-        halte["kode"] = paper.circle(400,643,5.5)
+        halte["Masjid Agung"] = paper.circle(400,643,5.5)
           .attr({fill:"white",
                  'stroke-width':2});
         paper.text(370,643,'Masjid Agung')
           .attr({'font-size':7});
         
         //Blok M
-        halte["kode"] = paper.circle(400,665,5.5)
+        halte["Blok M"] = paper.circle(400,665,5.5)
           .attr({fill:"white",
                  'stroke-width':2});
         paper.text(380,665,'Blok M')
@@ -605,11 +607,11 @@ window.onload =function(){
         
         
         //Dukuh Atas 1
-        halte["kode"] = paper.rect(388,421,25,16)
+        halte["Dukuh Atas 1"] = paper.rect(388,421,25,16)
           .attr({fill:"white",
                  'stroke-width':2});
         //Dukuh Atas 2
-        halte["kode"] = paper.rect(420,421,10,16)
+        halte["Dukuh Atas 2"] = paper.rect(420,421,10,16)
           .attr({fill:"white",
                  'stroke-width':2});
         
@@ -620,681 +622,681 @@ window.onload =function(){
                  'stroke-width':1.5});
         
         //Ragunan
-        halte["kode"] = paper.rect(470,915,22,10,[5])
+        halte["Ragunan"] = paper.rect(470,915,22,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Departemen Pertanian
-        halte["kode"] = paper.rect(470,890,22,10,[5])
+        halte["Departemen Pertanian"] = paper.rect(470,890,22,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //SMK 57
-        halte["kode"] = paper.rect(470,865,22,10,[5])
+        halte["SMK 57"] = paper.rect(470,865,22,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Jatipadang
-        halte["kode"] = paper.rect(470,840,22,10,[5])
+        halte["Jatipadang"] = paper.rect(470,840,22,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Pejaten
-        halte["kode"] = paper.rect(470,815,22,10,[5])
+        halte["Pejaten"] = paper.rect(470,815,22,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Buncit Indah
-        halte["kode"] = paper.rect(470,790,22,10,[5])
+        halte["Buncit Indah"] = paper.rect(470,790,22,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Warung Jati
-        halte["kode"] = paper.rect(470,765,22,10,[5])
+        halte["Warung Jati"] = paper.rect(470,765,22,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Imigrasi
-        halte["kode"] = paper.rect(470,740,22,10,[5])
+        halte["Imigrasi"] = paper.rect(470,740,22,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Duren Tiga
-        halte["kode"] = paper.rect(470,715,22,10,[5])
+        halte["Duren Tiga"] = paper.rect(470,715,22,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Mampang Prapatan
-        halte["kode"] = paper.rect(470,690,22,10,[5])
+        halte["Mampang Prapatan"] = paper.rect(470,690,22,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Patra Kuningan
-        halte["kode"] = paper.rect(470,570,22,10,[5])
+        halte["Patra Kuningan"] = paper.rect(470,570,22,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Departemen Kesehatan
-        halte["kode"] = paper.rect(470,545,22,10,[5])
+        halte["Departemen Kesehatan"] = paper.rect(470,545,22,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //GOR Sumantri
-        halte["kode"] = paper.rect(470,520,22,10,[5])
+        halte["GOR Sumantri"] = paper.rect(470,520,22,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Karet Kuningan
-        halte["kode"] = paper.rect(470,495,22,10,[5])
+        halte["Karet Kuningan"] = paper.rect(470,495,22,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Kuningan Madya
-        halte["kode"] = paper.rect(470,470,22,10,[5])
+        halte["Kuningan Madya"] = paper.rect(470,470,22,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Setiabudi Utara AINI
-        halte["kode"] = paper.rect(470,445,22,10,[5])
+        halte["Setiabudi Utara AINI"] = paper.rect(470,445,22,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Tanjung Priok
-        halte["kode"] = paper.rect(756,50,10,20,[5])
+        halte["Tanjung Priok"] = paper.rect(756,50,10,20,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         
         //Enggano
-        halte["kode"] = paper.rect(780,50,10,20,[5])
+        halte["Enggano"] = paper.rect(780,50,10,20,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Permai Koja
-        halte["kode"] = paper.rect(796,75,20,10,[5])
+        halte["Permai Koja"] = paper.rect(796,75,20,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Walikota Jakarta Utara
-        halte["kode"] = paper.rect(796,105,20,10,[5])
+        halte["Walikota Jakarta Utara"] = paper.rect(796,105,20,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Plumpang Pertamina
-        halte["kode"] = paper.rect(796,135,20,10,[5])
+        halte["Plumpang Pertamina"] = paper.rect(796,135,20,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Sunter Kelapa Gading
-        halte["kode"] = paper.rect(796,165,20,10,[5])
+        halte["Sunter Kelapa Gading"] = paper.rect(796,165,20,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Sunter Boulevard Barat
-        halte["kode"] = paper.rect(796,215,20,10,[5])
+        halte["Sunter Boulevard Barat"] = paper.rect(796,215,20,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Yos Sudarso Kodamar
-        halte["kode"] = paper.circle(808,250,5.5)
+        halte["Yos Sudarso Kodamar"] = paper.circle(808,250,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Cempaka Putih
-        halte["kode"] = paper.circle(808,320,5.5)
+        halte["Cempaka Putih"] = paper.circle(808,320,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Pulomas Bypass
-        halte["kode"] = paper.circle(791,337,5.5)
+        halte["Pulomas Bypass"] = paper.circle(791,337,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Kayu Putih Rawasari
-        halte["kode"] = paper.circle(774,354,5.5)
+        halte["Kayu Putih Rawasari"] = paper.circle(774,354,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Utan Kayu Rawamangun
-        halte["kode"] = paper.circle(774,430,5.5)
+        halte["Utan Kayu Rawamangun"] = paper.circle(774,430,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Ahmad Yani Bea Cukai
-        halte["kode"] = paper.circle(774,480,5.5)
+        halte["Ahmad Yani Bea Cukai"] = paper.circle(774,480,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Pedati Prumpung
-        halte["kode"] = paper.circle(774,570,5.5)
+        halte["Pedati Prumpung"] = paper.circle(774,570,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Cipinang Kebon Nanas
-        halte["kode"] = paper.circle(774,600,5.5)
+        halte["Cipinang Kebon Nanas"] = paper.circle(774,600,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Penas Kalimalang
-        halte["kode"] = paper.circle(774,630,5.5)
+        halte["Penas Kalimalang"] = paper.circle(774,630,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Cawang Sutoyo
-        halte["kode"] = paper.rect(720,660,10,20,[5])
+        halte["Cawang Sutoyo"] = paper.rect(720,660,10,20,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Cawang UKI
-        halte["kode"] = paper.rect(658,691,35,8,[4])
+        halte["Cawang UKI"] = paper.rect(658,691,35,8,[4])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //BKN
-        halte["kode"] = paper.rect(658,726,32,10,[5])
+        halte["BKN"] = paper.rect(658,726,32,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //PGC 2
-        halte["kode"] = paper.rect(640,763,23,10,[5])
+        halte["PGC 2"] = paper.rect(640,763,23,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 })
           .transform("t0,0r45,635,760t0,0");
         //PGC 1
-        halte["kode"] = paper.rect(663,780,29,10,[5])
+        halte["PGC 1"] = paper.rect(663,780,29,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         
         //Ps. Kramat Jati
-        halte["kode"] = paper.circle(686,805,5.5)
+        halte["Ps. Kramat Jati"] = paper.circle(686,805,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Ps. Induk Kramat Jati
-        halte["kode"] = paper.circle(686,832,5.5)
+        halte["Ps. Induk Kramat Jati"] = paper.circle(686,832,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //RS. Harapan Bunda
-        halte["kode"] = paper.circle(686,857,5.5)
+        halte["RS. Harapan Bunda"] = paper.circle(686,857,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Flyover Raya Bogor
-        halte["kode"] = paper.circle(686,887,5.5)
+        halte["Flyover Raya Bogor"] = paper.circle(686,887,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Kampung Rambutan
-        halte["kode"] = paper.circle(686,925,5.5)
+        halte["Kampung Rambutan"] = paper.circle(686,925,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Tanah Merdeka
-        halte["kode"] = paper.circle(667,905,5.5)
+        halte["Tanah Merdeka"] = paper.circle(667,905,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Pinang Ranti
-        halte["kode"] = paper.circle(780,776,5.5)
+        halte["Pinang Ranti"] = paper.circle(780,776,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Garuda Taman Mini
-        halte["kode"] = paper.circle(745,776,5.5)
+        halte["Garuda Taman Mini"] = paper.circle(745,776,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         
         //Cawang Otista
-        halte["kode"] = paper.rect(663,626,29,10,[5])
+        halte["Cawang Otista"] = paper.rect(663,626,29,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Gelanggang Remaja
-        halte["kode"] = paper.rect(663,601,29,10,[5])
+        halte["Gelanggang Remaja"] = paper.rect(663,601,29,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Bidara Cina
-        halte["kode"] = paper.rect(663,576,29,10,[5])
+        halte["Bidara Cina"] = paper.rect(663,576,29,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Kampung Melayu
-        halte["kode"] = paper.rect(663,509,33,14,[5])
+        halte["Kampung Melayu"] = paper.rect(663,509,33,14,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Pulogadung
-        halte["kode"] = paper.rect(957,280,20,50,[5])
+        halte["Pulogadung"] = paper.rect(957,280,20,50,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Bermis
-        halte["kode"] = paper.rect(925,285,10,24,[5])
+        halte["Bermis"] = paper.rect(925,285,10,24,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Pulomas
-        halte["kode"] = paper.rect(900,285,10,24,[5])
+        halte["Pulomas"] = paper.rect(900,285,10,24,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //ASMI
-        halte["kode"] = paper.rect(875,285,10,24,[5])
+        halte["ASMI"] = paper.rect(875,285,10,24,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Pedongkelan
-        halte["kode"] = paper.rect(850,285,10,24,[5])
+        halte["Pedongkelan"] = paper.rect(850,285,10,24,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //RS. Islam
-        halte["kode"] = paper.rect(775,285,10,24,[5])
+        halte["RS. Islam"] = paper.rect(775,285,10,24,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Cempaka Tengah
-        halte["kode"] = paper.rect(750,285,10,24,[5])
+        halte["Cempaka Tengah"] = paper.rect(750,285,10,24,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Ps. Cempaka Putih
-        halte["kode"] = paper.rect(725,285,10,24,[5])
+        halte["Ps. Cempaka Putih"] = paper.rect(725,285,10,24,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Rawa Selatan
-        halte["kode"] = paper.rect(700,285,10,24,[5])
+        halte["Rawa Selatan"] = paper.rect(700,285,10,24,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Galur
-        halte["kode"] = paper.rect(675,285,10,24,[5])
+        halte["Galur"] = paper.rect(675,285,10,24,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Kwitang
-        halte["kode"] = paper.rect(525,291,10,20,[5])
+        halte["Kwitang"] = paper.rect(525,291,10,20,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Gambir
-        halte["kode"] = paper.rect(500,291,10,20,[5])
+        halte["Gambir"] = paper.rect(500,291,10,20,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Balaikota
-        halte["kode"] = paper.rect(475,291,10,20,[5])
+        halte["Balaikota"] = paper.rect(475,291,10,20,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Atrium
-        halte["kode"] = paper.rect(598,272,14,10,[5])
+        halte["Atrium"] = paper.rect(598,272,14,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 })
           .transform("t0,0r-45,605,277t0,0");
         
         //RSPAD
-        halte["kode"] = paper.rect(583,257,14,10,[5])
+        halte["RSPAD"] = paper.rect(583,257,14,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 })
           .transform("t0,0r-45,590,262t0,0");
         
         //Deplu
-        halte["kode"] = paper.rect(565,245,10,15,[5])
+        halte["Deplu"] = paper.rect(565,245,10,15,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Gambir 1
-        halte["kode"] = paper.rect(543,245,10,15,[5])
+        halte["Gambir 1"] = paper.rect(543,245,10,15,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Istiqlal
-        halte["kode"] = paper.rect(520,245,10,15,[5])
+        halte["Istiqlal"] = paper.rect(520,245,10,15,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         
         //Pecenongan
-        halte["kode"] = paper.rect(458,195,10,45,[5])
+        halte["Pecenongan"] = paper.rect(458,195,10,45,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Juanda
-        halte["kode"] = paper.rect(485,195,10,45,[5])
+        halte["Juanda"] = paper.rect(485,195,10,45,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Gatot Subroto LIPI
-        halte["kode"] = paper.rect(420,570,18,10,[5])
+        halte["Gatot Subroto LIPI"] = paper.rect(420,570,18,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 })
           .transform("t0,0r-45,420,570t0,0");
         //Gatot Subroto Jamsostek
-        halte["kode"] = paper.rect(440,590,18,10,[5])
+        halte["Gatot Subroto Jamsostek"] = paper.rect(440,590,18,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 }) 
           .transform("t0,0r-45,440,590t0,0");
         //Tegal Parang
-        halte["kode"] = paper.rect(522,621,10,16,[5])
+        halte["Tegal Parang"] = paper.rect(522,621,10,16,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Pancoran Barat
-        halte["kode"] = paper.rect(544,621,10,16,[5])
+        halte["Pancoran Barat"] = paper.rect(544,621,10,16,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 }); 
         //Pancoran Tugu
-        halte["kode"] = paper.rect(566,621,10,16,[5])
+        halte["Pancoran Tugu"] = paper.rect(566,621,10,16,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });  
         //Tebet BKPM
-        halte["kode"] = paper.rect(588,621,10,16,[5])
+        halte["Tebet BKPM"] = paper.rect(588,621,10,16,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });  
         //Cikoko Stasiun Cawang
-        halte["kode"] = paper.rect(610,621,10,16,[5])
+        halte["Cikoko Stasiun Cawang"] = paper.rect(610,621,10,16,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });  
         //Cawang Ciliwung
-        halte["kode"] = paper.rect(632,621,10,16,[5])
+        halte["Cawang Ciliwung"] = paper.rect(632,621,10,16,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });  
         //Penjaringan
-        halte["kode"] = paper.rect(270,55,17,10,[5])
+        halte["Penjaringan"] = paper.rect(270,55,17,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 }); 
         //Jembatan Tiga
-        halte["kode"] = paper.circle(276,100,5.5)
+        halte["Jembatan Tiga"] = paper.circle(276,100,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 }); 
         //Jembatan Dua
-        halte["kode"] = paper.circle(276,125,5.5)
+        halte["Jembatan Dua"] = paper.circle(276,125,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 }); 
         //Jembatan Besi
-        halte["kode"] = paper.circle(276,150,5.5)
+        halte["Jembatan Besi"] = paper.circle(276,150,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 }); 
         //Latumenten Stasiun Grogol
-        halte["kode"] = paper.circle(276,175,5.5)
+        halte["Latumenten Stasiun Grogol"] = paper.circle(276,175,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 }); 
         
         //Pangeran Jayakarta
-        halte["kode"] = paper.circle(470,90,5.5)
+        halte["Pangeran Jayakarta"] = paper.circle(470,90,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 }); 
         //Mangga Dua
-        halte["kode"] = paper.circle(530,90,5.5)
+        halte["Mangga Dua"] = paper.circle(530,90,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 }); 
         
         //Ancol
-        halte["kode"] = paper.rect(612,40,26,10,[5])
+        halte["Ancol"] = paper.rect(612,40,26,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 }); 
         //Pademangan
-        halte["kode"] = paper.rect(612,65,26,10,[5])
+        halte["Pademangan"] = paper.rect(612,65,26,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Gunung Sahari Mangga Dua
-        halte["kode"] = paper.rect(612,100,35,10,[5])
+        halte["Gunung Sahari Mangga Dua"] = paper.rect(612,100,35,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Jembatan Merah
-        halte["kode"] = paper.rect(612,150,35,10,[5])
+        halte["Jembatan Merah"] = paper.rect(612,150,35,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         
         //Kemayoran Landas Pacu Timur
-        halte["kode"] = paper.circle(665,220,5.5)
+        halte["Kemayoran Landas Pacu Timur"] = paper.circle(665,220,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         
         //Danau Agung
-        halte["kode"] = paper.circle(692,220,5.5)
+        halte["Danau Agung"] = paper.circle(692,220,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         
         //SMP 140
-        halte["kode"] = paper.circle(721,189,5.5)
+        halte["SMP 140"] = paper.circle(721,189,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         
         //Sunter Karya
-        halte["kode"] = paper.circle(750,189,5.5)
+        halte["Sunter Karya"] = paper.circle(750,189,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Pasar Baru
-        halte["kode"] = paper.rect(575,195,10,32,[5])
+        halte["Pasar Baru"] = paper.rect(575,195,10,32,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         
         //Latuharhari
-        halte["kode"] = paper.rect(497,372,10,20,[5])
+        halte["Latuharhari"] = paper.rect(497,372,10,20,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         
         //Pasar Baru Timur
-        halte["kode"] = paper.rect(612,195,25,10,[5])
+        halte["Pasar Baru Timur"] = paper.rect(612,195,25,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         
         //Budi Utomo
-        halte["kode"] = paper.rect(620,230,18,10,[5])
+        halte["Budi Utomo"] = paper.rect(620,230,18,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         
         //Pal Putih
-        halte["kode"] = paper.rect(613,320,25,10,[5])
+        halte["Pal Putih"] = paper.rect(613,320,25,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Kramat Sentiong NU
-        halte["kode"] = paper.rect(613,340,25,10,[5])
+        halte["Kramat Sentiong NU"] = paper.rect(613,340,25,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Salemba UI
-        halte["kode"] = paper.rect(613,360,25,10,[5])
+        halte["Salemba UI"] = paper.rect(613,360,25,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Salemba Carolus
-        halte["kode"] = paper.rect(613,380,25,10,[5])
+        halte["Salemba Carolus"] = paper.rect(613,380,25,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         
         //Tegalan
-        halte["kode"] = paper.rect(660,430,25,10,[5])
+        halte["Tegalan"] = paper.rect(660,430,25,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Slamet Riyadi
-        halte["kode"] = paper.rect(663,450,25,10,[5])
+        halte["Slamet Riyadi"] = paper.rect(663,450,25,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Kebon Pala
-        halte["kode"] = paper.rect(663,470,25,10,[5])
+        halte["Kebon Pala"] = paper.rect(663,470,25,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         
         //Pulogebang
-        halte["kode"] = paper.circle(1100,534,5.5)
+        halte["Pulogebang"] = paper.circle(1100,534,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Walikota Jakarta Timur
-        halte["kode"] = paper.circle(1075,534,5.5)
+        halte["Walikota Jakarta Timur"] = paper.circle(1075,534,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Penggilingan
-        halte["kode"] = paper.circle(1050,534,5.5)
+        halte["Penggilingan"] = paper.circle(1050,534,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Perumnas Klender
-        halte["kode"] = paper.circle(1025,534,5.5)
+        halte["Perumnas Klender"] = paper.circle(1025,534,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Flyover Radin Inten
-        halte["kode"] = paper.circle(1000,534,5.5)
+        halte["Flyover Radin Inten"] = paper.circle(1000,534,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Buaran
-        halte["kode"] = paper.circle(975,534,5.5)
+        halte["Buaran"] = paper.circle(975,534,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Kampung Sumur
-        halte["kode"] = paper.circle(950,534,5.5)
+        halte["Kampung Sumur"] = paper.circle(950,534,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Flyover Klender
-        halte["kode"] = paper.circle(925,534,5.5)
+        halte["Flyover Klender"] = paper.circle(925,534,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Stasiun Klender
-        halte["kode"] = paper.circle(900,534,5.5)
+        halte["Stasiun Klender"] = paper.circle(900,534,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Cipinang
-        halte["kode"] = paper.circle(875,534,5.5)
+        halte["Cipinang"] = paper.circle(875,534,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Imigrasi Jakarta Timur
-        halte["kode"] = paper.circle(850,534,5.5)
+        halte["Imigrasi Jakarta Timur"] = paper.circle(850,534,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         
         //Ps. Enjo
-        halte["kode"] = paper.circle(825,534,5.5)
+        halte["Ps. Enjo"] = paper.circle(825,534,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         
         //Ps. Pulogadung
-        halte["kode"] = paper.rect(937,323,18,10,[5])
+        halte["Ps. Pulogadung"] = paper.rect(937,323,18,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 })
           .transform("t0,0r45,937,323t0,0");
         //TU Gas
-        halte["kode"] = paper.rect(917,340,18,10,[5])
+        halte["TU Gas"] = paper.rect(917,340,18,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 })
           .transform("t0,0r45,917,340t0,0");
         //Layur
-        halte["kode"] = paper.rect(897,358,18,10,[5])
+        halte["Layur"] = paper.rect(897,358,18,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 })
           .transform("t0,0r45,897,358t0,0");
         //Pemuda Rawamangun
-        halte["kode"] = paper.rect(870,366,10,21,[5])
+        halte["Pemuda Rawamangun"] = paper.rect(870,366,10,21,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Velodrome
-        halte["kode"] = paper.rect(845,366,10,21,[5])
+        halte["Velodrome"] = paper.rect(845,366,10,21,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Sunan Giri
-        halte["kode"] = paper.rect(820,366,10,21,[5])
+        halte["Sunan Giri"] = paper.rect(820,366,10,21,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //UNJ
-        halte["kode"] = paper.rect(795,366,10,21,[5])
+        halte["UNJ"] = paper.rect(795,366,10,21,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Pramuka LIA
-        halte["kode"] = paper.rect(725,366,10,21,[5])
+        halte["Pramuka LIA"] = paper.rect(725,366,10,21,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Utan Kayu
-        halte["kode"] = paper.rect(700,366,10,21,[5])
+        halte["Utan Kayu"] = paper.rect(700,366,10,21,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Pasar Genjing
-        halte["kode"] = paper.rect(675,366,10,21,[5])
+        halte["Pasar Genjing"] = paper.rect(675,366,10,21,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Manggarai
-        halte["kode"] = paper.rect(580,415,10,22,[5])
+        halte["Manggarai"] = paper.rect(580,415,10,22,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Pasar Rumput
-        halte["kode"] = paper.rect(555,415,10,22,[5])
+        halte["Pasar Rumput"] = paper.rect(555,415,10,22,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Halimun
-        halte["kode"] = paper.rect(497,417,10,20,[5])
+        halte["Halimun"] = paper.rect(497,417,10,20,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         
         //Kuningan Timur
-        halte["kode"] = paper.rect(471,590,22,10)
+        halte["Kuningan Timur"] = paper.rect(471,590,22,10)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Kuningan Barat
-        halte["kode"] = paper.rect(500,605,15,33)
+        halte["Kuningan Barat"] = paper.rect(500,605,15,33)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
@@ -1304,13 +1306,13 @@ window.onload =function(){
                                                                                                            });
         
         //St. Jatinegara
-        halte["kode"] = paper.rect(770,510,20,10)
+        halte["St. Jatinegara"] = paper.rect(770,510,20,10)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         
         //Flyover Jatinegara
-        halte["kode"] = paper.rect(790,530,10,10)
+        halte["Flyover Jatinegara"] = paper.rect(790,530,10,10)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
@@ -1322,12 +1324,12 @@ window.onload =function(){
                 });
         
         //Pasar Jatinegara
-        halte["kode"] = paper.rect(740,495,15,28)
+        halte["Pasar Jatinegara"] = paper.rect(740,495,15,28)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //St. Jatinegara 2
-        halte["kode"] = paper.rect(755,530,10,10)
+        halte["St. Jatinegara 2"] = paper.rect(755,530,10,10)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
@@ -1338,12 +1340,12 @@ window.onload =function(){
                  fill:"white"
                 });
         //Cempaka Timur
-        halte["kode"] = paper.rect(820,285,10,24)
+        halte["Cempaka Timur"] = paper.rect(820,285,10,24)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Cempaka Mas 2
-        halte["kode"] = paper.rect(800,270,20,10)
+        halte["Cempaka Mas 2"] = paper.rect(800,270,20,10)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
@@ -1355,12 +1357,12 @@ window.onload =function(){
                 });
         
         //Pramuka BPKP
-        halte["kode"] = paper.rect(750,366,15,21)
+        halte["Pramuka BPKP"] = paper.rect(750,366,15,21)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         //Pemuda Pramuka
-        halte["kode"] = paper.rect(764,395,20,15)
+        halte["Pemuda Pramuka"] = paper.rect(764,395,20,15)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
@@ -1371,13 +1373,13 @@ window.onload =function(){
                 });
         
         //Matraman 2
-        halte["kode"] = paper.rect(650,366,15,32)
+        halte["Matraman 2"] = paper.rect(650,366,15,32)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
         
         //Matraman 1
-        halte["kode"] = paper.rect(640,410,25,12)
+        halte["Matraman 1"] = paper.rect(640,410,25,12)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
