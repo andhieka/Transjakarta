@@ -368,51 +368,91 @@ window.onload =function() {
         halte["Kalideres"] = paper.rect(19,207,8,20,[5])
           .attr({fill:"white",
                  'stroke-width':2});
+        paper.text(23,202,'Kalideres')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
+          .transform("t0,0r-45,23,202t0,0");
 
         //Pesakih
         halte["Pesakih"] = paper.rect(45,207,8,20,[5])
           .attr({fill:"white",
                  'stroke-width':2});
+        paper.text(45,202,'Pesakih')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
+          .transform("t0,0r-45,45,202t0,0");
 
         //Sumur Bor
         halte["Sumur Bor"] = paper.rect(71,207,8,20,[5])
           .attr({fill:"white",
                  'stroke-width':2});
+        paper.text(71,202,'Sumur Bor')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
+          .transform("t0,0r-45,71,202t0,0");
 
         //Rawa Buaya
         halte["Rawa Buaya"] = paper.rect(97,207,8,20,[5])
           .attr({fill:"white",
                  'stroke-width':2});
+        paper.text(97,202,'Rawa Buaya')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
+          .transform("t0,0r-45,97,202t0,0");
 
         //Jembatan Baru
         halte["Jembatan Baru"] = paper.rect(123,207,8,20,[5])
           .attr({fill:"white",
                  'stroke-width':2});
+        paper.text(123,202,'Jembatan Baru')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
+          .transform("t0,0r-45,123,202t0,0");
 
         //Dispenda Samsat Barat
         halte["Dispenda Samsat Barat"] = paper.rect(149,207,8,20,[5])
           .attr({fill:"white",
                  'stroke-width':2});
+        paper.text(149,202,'Dispenda Samsat Barat')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
+          .transform("t0,0r-45,149,202t0,0");
 
         //Jembatan Gantung
         halte["Jembatan Gantung"] = paper.rect(175,207,8,20,[5])
           .attr({fill:"white",
                  'stroke-width':2});
+        paper.text(175,202,'Jembatan Gantung')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
+          .transform("t0,0r-45,175,202t0,0");
 
         //Taman Kota
         halte["Taman Kota"] = paper.rect(201,207,8,20,[5])
           .attr({fill:"white",
                  'stroke-width':2});
+        paper.text(201,202,'Taman Kota')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
+          .transform("r-45,201,202");
 
         //Indosiar
         halte["Indosiar"] = paper.rect(227,207,8,27,[5])
           .attr({fill:"white",
                  'stroke-width':2});
+        paper.text(227,202,'Indosiar')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
+          .transform("r-45,227,202");
 
         //Jelambar
         halte["Jelambar"] = paper.rect(253,207,8,27,[5])
           .attr({fill:"white",
                  'stroke-width':2});
+        paper.text(248,202,'Jelambar')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
+          .transform("r-45,248,202");
         
         //RS. Sumber Waras
         halte["RS. Sumber Waras"] = paper.rect(340,207,8,20,[5])
@@ -420,6 +460,10 @@ window.onload =function() {
             fill:"white",
             'stroke-width':2
           });
+        paper.text(340,202,'RS. Sumber Waras')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
+          .transform("r-45,340,202");
         
         //Pluit
         halte["Pluit"] = paper.rect(268,24,22,10,[5])
