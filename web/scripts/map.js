@@ -1,4 +1,5 @@
 halte = {}
+halteForLoop = {}
 
 window.onload =function(){
         var paper = Raphael(0,0,1200,963);
@@ -208,21 +209,21 @@ window.onload =function(){
                  'text-anchor':"start"});
         
         //Mangga Besar
-        halte["kode"] = paper.circle(400,153,5.5)
+        halte["Mangga Besar"] = paper.circle(400,153,5.5)
           .attr({fill:"white",
                  'stroke-width':2});
         paper.text(410,153,'Mangga Besar')
           .attr({'font-size':font,
                  'text-anchor':"start"});
         //Olimo
-        halte["kode"] = paper.circle(400,131,5.5)
+        halte["Olimo"] = paper.circle(400,131,5.5)
           .attr({fill:"white",
                  'stroke-width':2});
         paper.text(410,131,'Olimo')
           .attr({'font-size':font,
                  'text-anchor':"start"});
         //Glodok
-        halte["kode"] = paper.circle(400,109,5.5)
+        halte["Glodok"] = paper.circle(400,109,5.5)
           .attr({fill:"white",
                  'stroke-width':2});
         paper.text(410,109,'Glodok')
@@ -230,12 +231,12 @@ window.onload =function(){
                  'text-anchor':"start"});
         
         //Grogol 1
-        halte["kode"] = paper.rect(300,200,13,40)
+        halte["Grogol 1"] = paper.rect(300,200,13,40)
           .attr({fill:"white",
                  'stroke-width':2});
         
         //Grogol 2
-        halte["kode"] = paper.rect(270,261,28.284,14.142)
+        halte["Grogol 2"] = paper.rect(270,261,28.284,14.142)
           .attr({fill:"white",
                  'stroke-width':2})
           .transform("t0,0r-45,270,261t0,0");
@@ -247,7 +248,7 @@ window.onload =function(){
                  });
         
         //Lebak Bulus
-        halte["kode"] = paper.circle(209,870,5.5)
+        halte["Lebak Bulus"] = paper.circle(209,870,5.5)
           .attr({fill:"white",
                  'stroke-width':2});
         paper.text(218,870,'Lebak Bulus')
@@ -255,7 +256,7 @@ window.onload =function(){
                  'text-anchor':"start"});
         
         //Pondok Pinang
-        halte["kode"] = paper.circle(186,851,5.5)
+        halte["Pondok Pinang"] = paper.circle(186,851,5.5)
           .attr({fill:"white",
                  'stroke-width':2});
         paper.text(177,851,'Pondok Pinang')
@@ -263,7 +264,7 @@ window.onload =function(){
                  'text-anchor':"end"});
         
         //Pondok Indah 1
-        halte["kode"] = paper.circle(209,833,5.5)
+        halte["Pondok Indah 1"] = paper.circle(209,833,5.5)
           .attr({fill:"white",
                  'stroke-width':2});
         paper.text(218,833,'Pondok Indah 1')
@@ -271,7 +272,7 @@ window.onload =function(){
                  'text-anchor':"start"});
         
         //Pondok Indah 2
-        halte["kode"] = paper.circle(209,790,5.5)
+        halte["Pondok Indah 2"] = paper.circle(209,790,5.5)
           .attr({fill:"white",
                  'stroke-width':2});
         paper.text(200,790,'Pondok Indah 2')
@@ -279,95 +280,95 @@ window.onload =function(){
                  'text-anchor':"end"});
         
         //Tanah Kusir Kodim
-        halte["kode"] = paper.circle(209,747,5.5)
+        halte["Tanah Kusir Kodim"] = paper.circle(209,747,5.5)
           .attr({fill:"white",
                  'stroke-width':2});
         paper.text(200,747,'Tanah Kusir Kodim')
           .attr({'font-size':font,
                  'text-anchor':"end"});
         //Kebayoran Lama Bungur
-        halte["kode"] = paper.circle(209,704,5.5)
+        halte["Kebayoran Lama Bungur"] = paper.circle(209,704,5.5)
           .attr({fill:"white",
                  'stroke-width':2});
         paper.text(200,704,'Kebayoran Lama Bungur')
           .attr({'font-size':font,
                  'text-anchor':"end"});
         //Ps. Kebayoran Lama
-        halte["kode"] = paper.circle(209,661,5.5)
+        halte["Ps. Kebayoran Lama"] = paper.circle(209,661,5.5)
           .attr({fill:"white",
                  'stroke-width':2});
         paper.text(200,661,'Ps. Kebayoran Lama')
           .attr({'font-size':font,
                  'text-anchor':"end"});
         //Simprug
-        halte["kode"] = paper.circle(209,618,5.5)
+        halte["Simprug"] = paper.circle(209,618,5.5)
           .attr({fill:"white",
                  'stroke-width':2});
         paper.text(200,618,'Simprug')
           .attr({'font-size':font,
                  'text-anchor':"end"});
         //Permata Hijau
-        halte["kode"] = paper.circle(209,575,5.5)
+        halte["Permata Hijau"] = paper.circle(209,575,5.5)
           .attr({fill:"white",
                  'stroke-width':2});
         paper.text(200,575,'Permata Hijau')
           .attr({'font-size':font,
                  'text-anchor':"end"});
         //Permata Hijau Rs. Medika
-        halte["kode"] = paper.circle(209,532,5.5)
+        halte["Permata Hijau Rs. Medika"] = paper.circle(209,532,5.5)
           .attr({fill:"white",
                  'stroke-width':2});
         paper.text(200,532,'Permata Hijau Rs. Medika')
           .attr({'font-size':font,
                  'text-anchor':"end"});
         //Pos Pengumben
-        halte["kode"] = paper.circle(209,489,5.5)
+        halte["Pos Pengumben"] = paper.circle(209,489,5.5)
           .attr({fill:"white",
                  'stroke-width':2});
         paper.text(200,489,'Pos Pengumben')
           .attr({'font-size':font,
                  'text-anchor':"end"});
         //Kelapa Dua Sasak
-        halte["kode"] = paper.circle(209,446,5.5)
+        halte["Kelapa Dua Sasak"] = paper.circle(209,446,5.5)
           .attr({fill:"white",
                  'stroke-width':2});
         paper.text(200,446,'Kelapa Dua Sasak')
           .attr({'font-size':font,
                  'text-anchor':"end"});
         //Kebon Jeruk
-        halte["kode"] = paper.circle(209,403,5.5)
+        halte["Kebon Jeruk"] = paper.circle(209,403,5.5)
           .attr({fill:"white",
                  'stroke-width':2});
         paper.text(200,403,'Kebon Jeruk')
           .attr({'font-size':font,
                  'text-anchor':"end"});
         //Duri Kepa
-        halte["kode"] = paper.circle(209,360,5.5)
+        halte["Duri Kepa"] = paper.circle(209,360,5.5)
           .attr({fill:"white",
                  'stroke-width':2});
         paper.text(200,360,'Duri Kepa')
           .attr({'font-size':font,
                  'text-anchor':"end"});
         //Kedoya Assiddiqiyah
-        halte["kode"] = paper.circle(209,317,5.5)
+        halte["Kedoya Assiddiqiyah"] = paper.circle(209,317,5.5)
           .attr({fill:"white",
                  'stroke-width':2});
         paper.text(200,317,'Kedoya Assiddiqiyah')
           .attr({'font-size':font,
                  'text-anchor':"end"});
         //Kedoya Green Garden
-        halte["kode"] = paper.circle(209,274,5.5)
+        halte["Kedoya Green Garden"] = paper.circle(209,274,5.5)
           .attr({fill:"white",
                  'stroke-width':2});
         paper.text(200,274,'Kedoya Green Garden')
           .attr({'font-size':font,
                  'text-anchor':"end"});
         
-        
+        halteForLoop["Kalideres-Jelambar"] = []
         //Kalideres-Jelambar
         for (var i=0;i<8;i+=1){
           var multiplier = i*26
-              halte["kode"] = paper.rect((19+multiplier),207,8,20,[5])
+                paper.rect((19+multiplier),207,8,20,[5])
                 .attr({
                   fill:"white",
                   'stroke-width':2
@@ -376,7 +377,7 @@ window.onload =function(){
         
         for (var i=1;i<3;i+=1){
           var multiplier = i*26
-              halte["kode"] = paper.rect((202+multiplier),207,8,27,[5])
+              paper.rect((202+multiplier),207,8,27,[5])
                 .attr({
                   fill:"white",
                   'stroke-width':2
@@ -384,49 +385,49 @@ window.onload =function(){
         }
         
         //RS. Sumber Waras
-        halte["kode"] = paper.rect(340,207,8,20,[5])
+        halte["RS. Sumber Waras"] = paper.rect(340,207,8,20,[5])
           .attr({
             fill:"white",
             'stroke-width':2
           });
         
         //Pluit
-        halte["kode"] = paper.rect(268,24,22,10,[5])
+        halte["Pluit"] = paper.rect(268,24,22,10,[5])
           .attr({fill:"white",
                  'stroke-width':2
                 });
         //Pluit Landmark Auto Plaza
-        halte["kode"] = paper.circle(305,45,5.5)
+        halte["Pluit Landmark Auto Plaza"] = paper.circle(305,45,5.5)
           .attr({fill:"white",
                  'stroke-width':2});
         
         //Pakin
-        halte["kode"] = paper.circle(326,55,5.5)
+        halte["Pakin"] = paper.circle(326,55,5.5)
           .attr({fill:"white",
                  'stroke-width':2});
         
         //Gedong Panjang
-        halte["kode"] = paper.circle(326,72,5.5)
+        halte["Gedong Panjang"] = paper.circle(326,72,5.5)
           .attr({fill:"white",
                  'stroke-width':2});
         
         //Museum Fatahillah
-        halte["kode"] = paper.circle(340,80,5.5)
+        halte["Museum Fatahillah"] = paper.circle(340,80,5.5)
           .attr({fill:"white",
                  'stroke-width':2});
         
         //Kali Besar Barat
-        halte["kode"] = paper.circle(355,91,5.5)
+        halte["Kali Besar Barat"] = paper.circle(355,91,5.5)
           .attr({fill:"white",
                  'stroke-width':2});
         
         //Bandengan Pekojan
-        halte["kode"] = paper.circle(315,91,5.5)
+        halte["Bandengan Pekojan"] = paper.circle(315,91,5.5)
           .attr({fill:"white",
                  'stroke-width':2});
         
         //Kota
-        halte["kode"] = paper.rect(390,85,20,10,[5])
+        halte["Kota"] = paper.rect(390,85,20,10,[5])
           .attr({fill:"white",
                  'stroke-width':2
                 });
@@ -434,20 +435,20 @@ window.onload =function(){
           .attr({'font-size':7});
         
         //S.Parman Podomoro City
-        halte["kode"] = paper.rect(287,279,31,10,[5])
+        halte["S.Parman Podomoro City"] = paper.rect(287,279,31,10,[5])
           .attr({fill:"white",
                  'stroke-width':2})
           .transform("t0,0r-45,287,279t0,0");
         
         
         //Senen Sentral
-        halte["kode"] = paper.rect(629,270,8,10)
+        halte["Senen Sentral"] = paper.rect(629,270,8,10)
           .attr({fill:"white",
                  'stroke-width':2
                 });
         
         //Senen
-        halte["kode"] = paper.rect(640,280,15,33)
+        halte["Senen"] = paper.rect(640,280,15,33)
           .attr({fill:"white",
                  'stroke-width':2
                 });
@@ -459,21 +460,21 @@ window.onload =function(){
                 });
         
         //BNN
-        halte["kode"] = paper.rect(655,650,40,10,[5])
+        halte["BNN"] = paper.rect(655,650,40,10,[5])
           .attr({fill:"white",
                  'stroke-width':2
                 });
         
         //Tomang Mandala-Petojo
-        halte["kode"] = paper.circle(330,268,5.5)
+        halte["Tomang Mandala"] = paper.circle(330,268,5.5)
           .attr({fill:"white",
                  'stroke-width':2});
         
-        halte["kode"] = paper.circle(340,256,5.5)
+        halte["RS. Tarakan"] = paper.circle(340,256,5.5)
           .attr({fill:"white",
                  'stroke-width':2});
         
-        halte["kode"] = paper.circle(350,244,5.5)
+        halte["Petojo"] = paper.circle(350,244,5.5)
           .attr({fill:"white",
                  'stroke-width':2});
         
