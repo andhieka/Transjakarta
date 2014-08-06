@@ -363,26 +363,56 @@ window.onload =function(){
         paper.text(200,274,'Kedoya Green Garden')
           .attr({'font-size':font,
                  'text-anchor':"end"});
-        
-        halteForLoop["Kalideres-Jelambar"] = []
-        //Kalideres-Jelambar
-        for (var i=0;i<8;i+=1){
-          var multiplier = i*26
-                paper.rect((19+multiplier),207,8,20,[5])
-                .attr({
-                  fill:"white",
-                  'stroke-width':2
-                });
-        }
-        
-        for (var i=1;i<3;i+=1){
-          var multiplier = i*26
-              paper.rect((202+multiplier),207,8,27,[5])
-                .attr({
-                  fill:"white",
-                  'stroke-width':2
-                });
-        }
+
+        //Kalideres
+        halte["Kalideres"] = paper.rect(19,207,8,20,[5])
+          .attr({fill:"white",
+                 'stroke-width':2});
+
+        //Pesakih
+        halte["Pesakih"] = paper.rect(45,207,8,20,[5])
+          .attr({fill:"white",
+                 'stroke-width':2});
+
+        //Sumur Bor
+        halte["Sumur Bor"] = paper.rect(71,207,8,20,[5])
+          .attr({fill:"white",
+                 'stroke-width':2});
+
+        //Rawa Buaya
+        halte["Rawa Buaya"] = paper.rect(97,207,8,20,[5])
+          .attr({fill:"white",
+                 'stroke-width':2});
+
+        //Jembatan Baru
+        halte["Jembatan Baru"] = paper.rect(123,207,8,20,[5])
+          .attr({fill:"white",
+                 'stroke-width':2});
+
+        //Dispenda Samsat Barat
+        halte["Dispenda Samsat Barat"] = paper.rect(149,207,8,20,[5])
+          .attr({fill:"white",
+                 'stroke-width':2});
+
+        //Jembatan Gantung
+        halte["Jembatan Gantung"] = paper.rect(175,207,8,20,[5])
+          .attr({fill:"white",
+                 'stroke-width':2});
+
+        //Taman Kota
+        halte["Taman Kota"] = paper.rect(201,207,8,20,[5])
+          .attr({fill:"white",
+                 'stroke-width':2});
+
+        //Indosiar
+        halte["Indosiar"] = paper.rect(227,207,8,27,[5])
+          .attr({fill:"white",
+                 'stroke-width':2});
+
+        //Jelambar
+        halte["Jelambar"] = paper.rect(253,207,8,27,[5])
+          .attr({fill:"white",
+                 'stroke-width':2});
         
         //RS. Sumber Waras
         halte["RS. Sumber Waras"] = paper.rect(340,207,8,20,[5])
