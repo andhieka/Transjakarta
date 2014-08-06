@@ -1,7 +1,7 @@
 halte = {}
 halteForLoop = {}
 
-window.onload =function(){
+window.onload =function() {
         var paper = Raphael(0,0,1200,963);
         //frame
         halte["kode"] = paper.rect(0,0,1200,963)
@@ -1421,6 +1421,15 @@ window.onload =function(){
                 });
         
         
+        for (key in halte) {
+          halte[key].node.id = key; //Give ID to the RaphaelJS elements
+          halte[key].mouseover(function() {
+            this.attr({fill:'pink'});
+          });
+          halte[key].click(function() {
+            this.attr({fill:'red'});
+          });
+        }
         
         
         
@@ -1431,5 +1440,5 @@ window.onload =function(){
         
         
         
-        
-      };
+  };
+
