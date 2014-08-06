@@ -5,6 +5,19 @@
  **/
 
  // Function Declarations
+function findFastestPaths(fromId, toId) {
+	startPt = busStops[fromId];
+	pq = new PriorityQueue();
+	pq.enqueue(startPt);
+	parent = [];
+	visited = [];
+	visited[startPt.id] = true;
+	while (!pq.empty()) {
+		pt = pq.extractMin();
+		neighbours = pt.edges.map(function(edge) { return busStops[edge.toId]; });
+
+	}
+}
 
 
 // Main Document
