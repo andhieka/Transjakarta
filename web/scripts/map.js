@@ -1330,9 +1330,16 @@ window.onload =function() {
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+          paper.text(520,605,'Kuningan Barat')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
+          
+
+
         //Kuningan Timur/Kuningan Barat
-        paper.path("M471 590 H493 V597 L503 605 H515 V638 H500 V608 L490 600 H471 V590 z")           .attr({'stroke-width':1.5,
-                                                                                                            fill:"white"
+        paper.path("M471 590 H493 V597 L503 605 H515 V638 H500 V608 L490 600 H471 V590 z")
+                   .attr({'stroke-width':1.5,
+                    fill:"white"
                                                                                                            });
         
         //St. Jatinegara
@@ -1340,13 +1347,21 @@ window.onload =function() {
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+          paper.text(795,515,'St. Jatinegara')
+          .attr({'font-size':font,
+                 'text-anchor':"start"});
+          
         
         //Flyover Jatinegara
         halte["Flyover Jatinegara"] = paper.rect(790,530,10,10)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
-        
+        paper.text(795,545,'Flyover Jatinegara')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
+          .transform("r45,795,545");
+
         //St. Jatinegara/Flyover Jatinegara
         paper.path("M770 510 H790 V517 L793 530 H800 V540 H790 V533 L787 520 H770 V510 z")
           .attr({'stroke-width':1.5,
@@ -1358,11 +1373,19 @@ window.onload =function() {
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+        paper.text(750,490,'Pasar Jatinegara')
+          .attr({'font-size':font,
+                 'text-anchor':"end"})
+
         //St. Jatinegara 2
         halte["St. Jatinegara 2"] = paper.rect(755,530,10,10)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+          paper.text(755,545,'St. Jatinegara 2')
+          .attr({'font-size':font,
+                 'text-anchor':"end"})
+
         
         //Pasar Jatinegara/St. Jatinegara 2
         paper.path("M740 495 H755 V520 L758 530 H765 V540 H755 V533 L752 523 H740 V495 z")
@@ -1374,11 +1397,19 @@ window.onload =function() {
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+          paper.text(835,285,'Cempaka Timur')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
+          .transform("t0,0r-45,835,285t0,0");
+        
         //Cempaka Mas 2
         halte["Cempaka Mas 2"] = paper.rect(800,270,20,10)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+          paper.text(795,275,'Cempaka Mas 2')
+          .attr({'font-size':font,
+                 'text-anchor':"end"})
         
         //Cempaka Timur/Cempaka Mas 2
         paper.path("M800 270 H820 V277 L823 285 H830 V309 H820 V288 L817 280 H800 V270 z")
@@ -1391,11 +1422,22 @@ window.onload =function() {
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+          paper.text(750,390,'Pramuka BPKP')
+          .attr({'font-size':font,
+                 'text-anchor':"end"})
+          .transform("t0,0r-45,750,390t0,0");
+
+
         //Pemuda Pramuka
         halte["Pemuda Pramuka"] = paper.rect(764,395,20,15)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+
+          paper.text(789,402,'Pemuda Pramuka')
+          .attr({'font-size':font,
+                 'text-anchor':"start"});
+
         //Pramuka BPKP/Permuda Pramuka
         paper.path("M750 366 H765 V384 L767 395 H784 V410 H764 V398 L762 387 H750 V366 z")
           .attr({'stroke-width':1.5,
@@ -1407,12 +1449,18 @@ window.onload =function() {
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+          paper.text(670,400,'Matraman 2')
+          .attr({'font-size':font,
+                 'text-anchor':"start"});
         
         //Matraman 1
         halte["Matraman 1"] = paper.rect(640,410,25,12)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+          paper.text(670,416,'Matraman 1')
+          .attr({'font-size':font,
+                 'text-anchor':"start"});
         
         //Matraman 2/Matraman 1
         paper.path("M650 366 H665 V398 H659 V410 H665 V422 H640 V410 H656 V398 H650 V366 z")
