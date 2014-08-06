@@ -231,7 +231,7 @@ window.onload =function() {
                  'text-anchor':"start"});
         
         //Grogol 1
-        halte["Grogol 1"] = paper.rect(300,200,13,40)
+        halte["Grogol 1"] = paper.rect(299,200,14,40)
           .attr({fill:"white",
                  'stroke-width':2});
         
@@ -242,7 +242,7 @@ window.onload =function() {
           .transform("t0,0r-45,270,261t0,0");
         
         //Grogol 1/Grogol 2
-        paper.path("M300 200 H313 V240 H303 L296 247 L300 251 L280 271 L270 261 L290 241 L294 245 L299 240 H 297 V200 H300 z")
+        paper.path("M300 200 H313 V240 H303 L296 247 L300 251 L280 271 L270 261 L290 241 L294 245 L299 240 V200 z")
           .attr ({fill:"white",
                   'stroke-width':1.5,
                  });
