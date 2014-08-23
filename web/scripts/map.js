@@ -1401,64 +1401,64 @@ window.onload =function() {
           .attr({'stroke-width':2,
                  fill:"white"
                 });
-          paper.text(875,364,'Pemuda Rawamangun')
+          paper.text(875,362,'Pemuda Rawamangun')
           .attr({'font-size':font,
                  'text-anchor':"start"})
-          .transform("r-45,875,364")
+          .transform("r-45,875,362")
         //Velodrome
         halte["Velodrome"] = paper.rect(845,366,10,21,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
-          paper.text(850,364,'Velodrome')
+          paper.text(850,362,'Velodrome')
           .attr({'font-size':font,
                  'text-anchor':"start"})
-          .transform("r-45,850,364")
+          .transform("r-45,850,362")
         //Sunan Giri
         halte["Sunan Giri"] = paper.rect(820,366,10,21,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
-          paper.text(825,364,'Sunan Giri')
+          paper.text(825,362,'Sunan Giri')
           .attr({'font-size':font,
                  'text-anchor':"start"})
-          .transform("r-45,825,364")
+          .transform("r-45,825,362")
         //UNJ
         halte["UNJ"] = paper.rect(795,366,10,21,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
-          paper.text(800,364,'UNJ')
+          paper.text(800,362,'UNJ')
           .attr({'font-size':font,
                  'text-anchor':"start"})
-          .transform("r-45,800,364")
+          .transform("r-45,800,362")
         //Pramuka LIA
         halte["Pramuka LIA"] = paper.rect(725,366,10,21,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
-          paper.text(730,364,'Pramuka LIA')
+          paper.text(730,362,'Pramuka LIA')
           .attr({'font-size':font,
                  'text-anchor':"start"})
-          .transform("r-45,730,364")
+          .transform("r-45,730,362")
         //Utan Kayu
         halte["Utan Kayu"] = paper.rect(700,366,10,21,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
-          paper.text(705,364,'Utan Kayu')
+          paper.text(705,362,'Utan Kayu')
           .attr({'font-size':font,
                  'text-anchor':"start"})
-          .transform("r-45,705,364")
+          .transform("r-45,705,362")
         //Pasar Genjing
         halte["Pasar Genjing"] = paper.rect(675,366,10,21,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
-          paper.text(680,364,'Pasar Genjing')
+          paper.text(680,362,'Pasar Genjing')
           .attr({'font-size':font,
                  'text-anchor':"start"})
-          .transform("r-45,680,364")
+          .transform("r-45,680,362")
         //Manggarai
         halte["Manggarai"] = paper.rect(580,415,10,22,[5])
           .attr({'stroke-width':2,
