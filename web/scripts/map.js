@@ -1195,105 +1195,179 @@ window.onload =function() {
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+          paper.text(620,230,'Budi Utomo')
+          .attr({'font-size':font,
+                 'text-anchor':"end"})
         
         //Pal Putih
         halte["Pal Putih"] = paper.rect(613,320,25,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+          paper.text(610,325,'Pal Putih')
+          .attr({'font-size':font,
+                 'text-anchor':"end"})
         //Kramat Sentiong NU
         halte["Kramat Sentiong NU"] = paper.rect(613,340,25,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+          paper.text(610,345,'Kramat Sentiong NU')
+          .attr({'font-size':font,
+                 'text-anchor':"end"})
         //Salemba UI
         halte["Salemba UI"] = paper.rect(613,360,25,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+          paper.text(610,365,'Salemba UI')
+          .attr({'font-size':font,
+                 'text-anchor':"end"})
         //Salemba Carolus
         halte["Salemba Carolus"] = paper.rect(613,380,25,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+          paper.text(610,385,'Salemba Carolus')
+          .attr({'font-size':font,
+                 'text-anchor':"end"})
         
         //Tegalan
         halte["Tegalan"] = paper.rect(660,430,25,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+          paper.text(687,435,'Tegalan')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
         //Slamet Riyadi
         halte["Slamet Riyadi"] = paper.rect(663,450,25,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+          paper.text(690,455,'Slamet Riyadi')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
         //Kebon Pala
         halte["Kebon Pala"] = paper.rect(663,470,25,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+          paper.text(690,475,'Kebon Pala')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
+          
         
         //Pulogebang
         halte["Pulogebang"] = paper.circle(1100,534,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+          paper.text(1100,543,'Pulogebang')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
+           .transform("r45,1100,543")
         //Walikota Jakarta Timur
         halte["Walikota Jakarta Timur"] = paper.circle(1075,534,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+          paper.text(1075,543,'Walikota Jakarta Timur')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
+           .transform("r45,1075,543")
         //Penggilingan
         halte["Penggilingan"] = paper.circle(1050,534,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+          paper.text(1050,543,'Penggilingan')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
+           .transform("r45,1050,543")
         //Perumnas Klender
         halte["Perumnas Klender"] = paper.circle(1025,534,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+            paper.text(1025,543,'Perumnas Klender')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
+           .transform("r45,1025,543")
         //Flyover Radin Inten
         halte["Flyover Radin Inten"] = paper.circle(1000,534,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+          paper.text(1000,543,'Flyover Radin Inten')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
+           .transform("r45,1000,543")
         //Buaran
         halte["Buaran"] = paper.circle(975,534,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+          paper.text(975,543,'Buaran')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
+           .transform("r45,975,543")
         //Kampung Sumur
         halte["Kampung Sumur"] = paper.circle(950,534,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+          paper.text(950,543,'Kampung Sumur')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
+           .transform("r45,950,543")
         //Flyover Klender
         halte["Flyover Klender"] = paper.circle(925,534,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+          paper.text(925,543,'Flyover Klender')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
+           .transform("r45,925,543")
         //Stasiun Klender
         halte["Stasiun Klender"] = paper.circle(900,534,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+          paper.text(900,543,'Stasiun Klender')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
+           .transform("r45,900,543")
         //Cipinang
         halte["Cipinang"] = paper.circle(875,534,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+          paper.text(875,543,'Cipinang')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
+           .transform("r45,875,543")
         //Imigrasi Jakarta Timur
         halte["Imigrasi Jakarta Timur"] = paper.circle(850,534,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+          paper.text(850,543,'Imigrasi Jakarta Timur')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
+           .transform("r45,850,543")
         
         //Ps. Enjo
         halte["Ps. Enjo"] = paper.circle(825,534,5.5)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+
+          paper.text(825,543,'Ps. Enjo')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
+           .transform("r45,825,543")
         
         //Ps. Pulogadung
         halte["Ps. Pulogadung"] = paper.rect(937,323,18,10,[5])
@@ -1301,74 +1375,126 @@ window.onload =function() {
                  fill:"white"
                 })
           .transform("t0,0r45,937,323t0,0");
+          paper.text(950,338,'Ps. Pulogadung')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
         //TU Gas
         halte["TU Gas"] = paper.rect(917,340,18,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 })
           .transform("t0,0r45,917,340t0,0");
+          paper.text(930,355,'TU Gas')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
         //Layur
         halte["Layur"] = paper.rect(897,358,18,10,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 })
           .transform("t0,0r45,897,358t0,0");
+          paper.text(910,373,'Layur')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
         //Pemuda Rawamangun
         halte["Pemuda Rawamangun"] = paper.rect(870,366,10,21,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+          paper.text(875,364,'Pemuda Rawamangun')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
+          .transform("r-45,875,364")
         //Velodrome
         halte["Velodrome"] = paper.rect(845,366,10,21,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+          paper.text(850,364,'Velodrome')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
+          .transform("r-45,850,364")
         //Sunan Giri
         halte["Sunan Giri"] = paper.rect(820,366,10,21,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+          paper.text(825,364,'Sunan Giri')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
+          .transform("r-45,825,364")
         //UNJ
         halte["UNJ"] = paper.rect(795,366,10,21,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+          paper.text(800,364,'UNJ')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
+          .transform("r-45,800,364")
         //Pramuka LIA
         halte["Pramuka LIA"] = paper.rect(725,366,10,21,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+          paper.text(730,364,'Pramuka LIA')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
+          .transform("r-45,730,364")
         //Utan Kayu
         halte["Utan Kayu"] = paper.rect(700,366,10,21,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+          paper.text(705,364,'Utan Kayu')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
+          .transform("r-45,705,364")
         //Pasar Genjing
         halte["Pasar Genjing"] = paper.rect(675,366,10,21,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+          paper.text(680,364,'Pasar Genjing')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
+          .transform("r-45,680,364")
         //Manggarai
         halte["Manggarai"] = paper.rect(580,415,10,22,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+          paper.text(585,440,'Manggarai')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
+          .transform("r45,585,440")
         //Pasar Rumput
         halte["Pasar Rumput"] = paper.rect(555,415,10,22,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+          paper.text(560,440,'Pasar Rumput')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
+          .transform("r45,560,440");
         //Halimun
         halte["Halimun"] = paper.rect(497,417,10,20,[5])
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+          paper.text(510,437,'Halimun')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
         
         //Kuningan Timur
         halte["Kuningan Timur"] = paper.rect(471,590,22,10)
           .attr({'stroke-width':2,
                  fill:"white"
                 });
+          paper.text(497,595,'Kuningan Timur')
+          .attr({'font-size':font,
+                 'text-anchor':"start"})
+        
         //Kuningan Barat
         halte["Kuningan Barat"] = paper.rect(500,605,15,33)
           .attr({'stroke-width':2,
@@ -1511,17 +1637,35 @@ window.onload =function() {
           .attr({'stroke-width':1.5,
                  fill:"white"
                 });
-        
-        
+
         for (key in halte) {
-          halte[key].node.id = key; //Give ID to the RaphaelJS elements
-          halte[key].mouseover(function() {
-            this.attr({fill:'pink'});
-          });
-          halte[key].click(function() {
-            this.attr({fill:'red'});
-          });
-        }
+          
+            halte[key].mouseover(function() {
+              if (this.attrs.fill !== '#2dee13') {
+               this.attr({fill:'#fdf179'});
+              }
+            });
+
+            halte[key].mouseout(function(){
+              if(this.attrs.fill !== '#2dee13'){
+              this.attr({fill:'white'});
+            }
+            });
+          
+          halte[key].click(function(){
+            if(this.attrs.fill =='#2dee13'){
+            this.attr({fill:'white'})
+          }
+          else if(this.attrs.fill !=='#2dee13'){
+            this.attr({fill:'#2dee13'})
+          }
+          }
+           ) 
+          };
+
+          
+         
+        
         
         
         
